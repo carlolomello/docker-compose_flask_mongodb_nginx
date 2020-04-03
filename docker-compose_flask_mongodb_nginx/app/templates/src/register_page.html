@@ -1,16 +1,26 @@
 {% extends "templatesFolder/template_home.html"%}
 {% block body %}
+<h1 class="font-weight-light mt-4 text-white">Registrazione</h1>
 
 <form id="idformInsert" action="{{url_for('register_conf')}}">
-    <input type="text" name="username" id="id_username" placeholder="username"><br>
-    <input type="password" name="password" id="id_password" placeholder="password"><br>
-    <input type="password" name="password2" id="id_password2" placeholder="conf_password"><br><br>
-  
-    <input type="text" name="nome" id="id_nome" placeholder="nome"><br>
-    <input type="text" name="cognome" id="id_cognome" placeholder="cognome"><br>
-    <input type="text" name="telefono" id="id_telefono" placeholder="telefono"><br><br>
-  
-    <input type="button" onclick="myFunction()" value="Reg_user">
+    <div class="form-group">
+        <!-- EMAIL -->
+        <input type="text" name="username" id="id_username" placeholder="Enter username" class="form-control text-white mt-5" aria-describedby="emailHelp""><br>
+        <!-- END EMAIL -->
+
+        <!-- PASSWORD -->
+        <input type="password" class="form-control" name="password" id="id_password" placeholder="Enter password"><br>
+        <input type="password" class="form-control" name="password2" id="id_password2" placeholder="Confirm password"><br>
+        <!-- END PASSWORD -->
+    
+        <!-- INFO -->
+        <input type="text" class="form-control" name="nome" id="id_nome" placeholder="Enter name"><br>
+        <input type="text" class="form-control" name="cognome" id="id_cognome" placeholder="Enter surname"><br>
+        <input type="text" class="form-control" name="telefono" id="id_telefono" placeholder="Enter telephone number">
+        <!-- END INFO -->
+    
+        <input class="btn btn-dark btn-lg btn-block mt-5" type="button" onclick="myFunction()" value="Registrati!">
+    </div>
 </form>
 
 {% endblock %}
