@@ -62,6 +62,17 @@ services:
     networks:
       - frontend
 
+  live-reloader:
+    image: apogiatzis/livereloading
+    container_name: livereloader
+    privileged: true
+    environment:
+      - RELOAD_DELAY=0.5              # seconds
+      - RELOAD_CONTAINER=flask
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - ./app:/var/www
+
 networks:
   frontend:
     driver: bridge
