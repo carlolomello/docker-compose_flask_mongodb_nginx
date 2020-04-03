@@ -25,3 +25,19 @@ img {
 label {
   color: white;
 }
+
+p{
+  color: white;
+}
+
+#user_logo{
+  width: 25%;
+  height: 25%;
+}
+
+.card {
+  background: rgba(255, 252, 252, 0);
+  border: 3px solid;
+  margin: 0 auto;
+  float: none;
+}
