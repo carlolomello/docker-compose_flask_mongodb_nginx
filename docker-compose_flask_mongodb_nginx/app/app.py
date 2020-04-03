@@ -17,11 +17,11 @@ db = mongo.db
 
 @application.route("/")
 def index():
-    return render_template("src/homepage.html")
+    return render_template("WebContent/homepage.html")
 
 @application.route("/register")
 def register():
-    return render_template("src/register_page.html")
+    return render_template("WebContent/register_page.html")
 
 @application.route('/register_conf')
 def register_conf():
@@ -40,13 +40,13 @@ def register_conf():
     }
     db.persona.insert_one(item)
 
-    return render_template("src/homepage.html")
+    return render_template("WebContent/homepage.html")
 
 
 
 @application.route("/login")
 def login():
-    return render_template("src/login_page.html")
+    return render_template("WebContent/login_page.html")
 
 @application.route('/logged_in')
 def logged_in():
@@ -74,7 +74,7 @@ def logged_in():
         cognome = pers_temp['cognome']
         telefono = pers_temp['telefono']
 
-    return render_template('src/welcome.html', nome = nome, cognome = cognome, telefono = telefono)
+    return render_template('WebContent/welcome.html', nome = nome, cognome = cognome, telefono = telefono)
 
 if __name__ == "__main__":
     ENVIRONMENT_DEBUG = os.environ.get("APP_DEBUG", True)

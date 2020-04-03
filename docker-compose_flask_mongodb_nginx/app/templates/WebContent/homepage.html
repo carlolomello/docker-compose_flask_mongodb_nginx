@@ -1,0 +1,18 @@
+{% extends "templatesFolder/template_home.html"%}
+{% block header %}
+{% endblock %}
+{% block body %}
+<h1 class="font-weight-light mt-4 text-white">Prova pratica</h1>
+<p class="lead text-white-50">Progetto buildato con flask, nginx e mongoDB</p>
+<br>
+<form action="{{url_for('register')}}">
+    <input name="register" id="id_register" type="submit" class="btn btn-dark btn-lg btn-block" value="Register page">
+</form>
+<br>
+<form action="{{url_for('login')}}">
+    <input name="login" id="id_login" type="submit" class="btn btn-dark btn-lg btn-block" value="Login page">
+</form>
+<br>
+{% endblock %}
+{% block footer %}
+{% endblock %}
