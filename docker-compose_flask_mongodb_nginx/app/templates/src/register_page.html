@@ -1,0 +1,45 @@
+{% extends "templatesFolder/template_home.html"%}
+{% block body %}
+
+<form id="idformInsert" action="{{url_for('register_conf')}}">
+    <input type="text" name="username" id="id_username" placeholder="username"><br>
+    <input type="password" name="password" id="id_password" placeholder="password"><br>
+    <input type="password" name="password2" id="id_password2" placeholder="conf_password"><br><br>
+  
+    <input type="text" name="nome" id="id_nome" placeholder="nome"><br>
+    <input type="text" name="cognome" id="id_cognome" placeholder="cognome"><br>
+    <input type="text" name="telefono" id="id_telefono" placeholder="telefono"><br><br>
+  
+    <input type="button" onclick="myFunction()" value="Reg_user">
+</form>
+
+{% endblock %}
+{% block other %}
+    <script>
+        function myFunction() {
+            var username = document.getElementById("id_username").value;
+            var password = document.getElementById("id_password").value;
+            var password2 = document.getElementById("id_password2").value;
+            var nome = document.getElementById("id_nome").value;
+            var cognome = document.getElementById("id_cognome").value;
+            var telefono = document.getElementById("id_telefono").value;
+
+            if(username == null || username == ""
+            || password == null || password == ""
+            || password2 == null || password2 == ""
+            || nome == null || nome == ""
+            || cognome == null || cognome == ""
+            || telefono == null || telefono == ""
+            ){
+                window.alert("tutti i campi sono obbliegatori!");
+            }else if (password != password2){
+                window.alert("le password non coincidono");
+            }
+            else {
+                document.getElementById("idformInsert").submit();
+            }
+        }
+    </script>
+{% endblock %}
+    
+

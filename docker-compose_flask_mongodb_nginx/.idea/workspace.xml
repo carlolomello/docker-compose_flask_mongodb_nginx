@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d34cfa13-3b43-42ef-b04b-f7dd8f738220" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ZtPO11z8eFm3vXDdse9cBiK3Tm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static/css" />
+      <recent name="$PROJECT_DIR$/app/static/assets" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/templates/static" />
+      <recent name="$PROJECT_DIR$/app/templates/static/css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="docker-compose_flask_mongodb_nginx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.mongodb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mongodb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Docker.docker-compose.yml.mongodb: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d34cfa13-3b43-42ef-b04b-f7dd8f738220" name="Default Changelist" comment="" />
+      <created>1585655381012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585655381012</updated>
+      <workItem from="1585655384920" duration="6115000" />
+      <workItem from="1585820186724" duration="1653000" />
+      <workItem from="1585822609527" duration="3975000" />
+      <workItem from="1585834404944" duration="2924000" />
+      <workItem from="1585837711510" duration="7776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="532" y="111" key="#app" timestamp="1585664767570">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="532" y="111" key="#app/0.23.1680.956@0.23.1680.956" timestamp="1585659848446" />
+    <state x="532" y="111" key="#app/0.23.1680.961@0.23.1680.961" timestamp="1585664767570" />
+    <state x="532" y="223" key="#docker-compose.yml.mongodb:_Compose_Deployment" timestamp="1585656969575">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="532" y="223" key="#docker-compose.yml.mongodb:_Compose_Deployment/0.23.1680.956@0.23.1680.956" timestamp="1585656969575" />
+    <state x="513" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1585837723257">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="513" y="330" key="com.intellij.ide.util.TipDialog/0.23.1680.958@0.23.1680.958" timestamp="1585837723257" />
+    <state x="513" y="330" key="com.intellij.ide.util.TipDialog/0.23.1680.961@0.23.1680.961" timestamp="1585834406436" />
+    <state x="513" y="331" key="com.intellij.ide.util.TipDialog/0.23.1680.963@0.23.1680.963" timestamp="1585820198603" />
+    <state x="513" y="332" key="com.intellij.ide.util.TipDialog/0.23.1680.967@0.23.1680.967" timestamp="1585822609885" />
+  </component>
+</project>
