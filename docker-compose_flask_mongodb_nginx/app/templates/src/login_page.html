@@ -1,9 +1,12 @@
 {% extends "templatesFolder/template_home.html"%}
 {% block body %}
+<h1 class="font-weight-light mt-4 text-white">Login Page</h1>
 <form id="LogIn" action="{{url_for('logged_in')}}">
-    <input type="text" name="username" id="id_username" placeholder="username"><br>
-    <input type="password" name="password" id="id_password"placeholder="password"><br><br>
-    <input type="button" onclick="login()" value="LogIn">
+    <div class="form-group">
+        <input type="text" name="username" class="form-control mt-5" id="id_username" placeholder="username"><br>
+        <input type="password" name="password"  class="form-control" id="id_password"placeholder="password">
+        <input type="button" onclick="login()" class="btn btn-dark btn-lg btn-block mt-5" value="LogIn">
+    </div>
 </form>
 {% endblock %}
 {% block other %}
