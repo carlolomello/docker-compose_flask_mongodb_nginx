@@ -1,4 +1,4 @@
-# docker-compose_flask_mongodb_nginx
+# docker-compose flask mongodb nginx
 
 Guida allo sviluppo di una web application mediante Docker-compose - flask - mongodb - nginx - gunicorn
 
