@@ -1,7 +1,6 @@
 FROM python:3.7.7-alpine3.10
 
-LABEL MAINTAINER="Carlo Lomello <carlo.lomello001@studenti.uniparthenope.it>"
-
+LABEL MAINTAINER="FirstName LastName <yourEmail@domain.com>"
 ENV GROUP_ID=1000 \
     USER_ID=1000
 

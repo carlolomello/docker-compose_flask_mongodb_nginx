@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d34cfa13-3b43-42ef-b04b-f7dd8f738220" name="Default Changelist" comment="" />
+    <list default="true" id="d34cfa13-3b43-42ef-b04b-f7dd8f738220" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZtPO11z8eFm3vXDdse9cBiK3Tm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +24,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
@@ -96,6 +106,7 @@
       <workItem from="1585822609527" duration="3975000" />
       <workItem from="1585834404944" duration="2924000" />
       <workItem from="1585837711510" duration="7776000" />
+      <workItem from="1586164794361" duration="241000" />
     </task>
     <servers />
   </component>
@@ -112,9 +123,10 @@
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state x="532" y="223" key="#docker-compose.yml.mongodb:_Compose_Deployment/0.23.1680.956@0.23.1680.956" timestamp="1585656969575" />
-    <state x="513" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1585837723257">
-      <screen x="0" y="23" width="1680" height="958" />
+    <state x="513" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1586164794548">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
+    <state x="513" y="329" key="com.intellij.ide.util.TipDialog/0.23.1680.956@0.23.1680.956" timestamp="1586164794548" />
     <state x="513" y="330" key="com.intellij.ide.util.TipDialog/0.23.1680.958@0.23.1680.958" timestamp="1585837723257" />
     <state x="513" y="330" key="com.intellij.ide.util.TipDialog/0.23.1680.961@0.23.1680.961" timestamp="1585834406436" />
     <state x="513" y="331" key="com.intellij.ide.util.TipDialog/0.23.1680.963@0.23.1680.963" timestamp="1585820198603" />

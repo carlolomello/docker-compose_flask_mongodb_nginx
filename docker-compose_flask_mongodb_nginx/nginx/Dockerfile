@@ -1,6 +1,6 @@
 FROM alpine:3.11.5
 
-LABEL MAINTAINER="Carlo Lomello <carlo.lomello001@studenti.uniparthenope.it>"
+LABEL MAINTAINER="FirstName LastName <yourEmail@domain.com>"
 
 RUN apk --update add nginx && \
     ln -sf /dev/stdout /var/log/nginx/access.log && \
